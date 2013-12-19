@@ -64,6 +64,14 @@ Then in your layout xml files you use the widget like this:
     android:layout_height="wrap_content" />
 ```
 
+If your app's theme is named something other than `Theme`, then you will also need to add something like this to your `attrs.xml`:
+```xml
+<declare-styleable name="MyThemeName">
+    <attr name="switchStyle" format="reference" />
+    <attr name="switchPreferenceStyle" format="reference" />
+</declare-styleable>
+```
+
 ### SwitchPreference
 
 Add switchPreferenceStyle to your 'themes.xml'
