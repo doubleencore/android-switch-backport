@@ -9,7 +9,7 @@ buildscript {
 apply plugin: 'android-library'
 
 android {
-  compileSdkVersion 18
-  buildToolsVersion '18.1'
+    compileSdkVersion 19
+    buildToolsVersion '19.0.0'
 
 }
