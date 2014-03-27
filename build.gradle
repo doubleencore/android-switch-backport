@@ -12,3 +12,5 @@ android {
     compileSdkVersion 19
     buildToolsVersion '19.0.0'
 }
+
+apply from: "$GRADLE_SCRIPTS/gradle-mvn-push.gradle"
